@@ -1,0 +1,23 @@
+/*
+Description:
+Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
+
+Examples
+replace("Hi!") === "H!!"
+replace("!Hi! Hi!") === "!H!! H!!"
+replace("aeiou") === "!!!!!"
+replace("ABCDE") === "!BCD!"
+*/
+
+public class Solution {
+    public static String replace(final String s) {
+            String vowel= "aeiouAEIOU";
+            StringBuilder replaced = new StringBuilder();
+            for(int i = 0 ; i < s.length() ; i++)
+                if(vowel.indexOf(s.charAt(i)) == -1)
+                    replaced.append(s.charAt(i));
+                else
+                    replaced.append('!');
+        return replaced.toString();
+    }
+}
