@@ -1,0 +1,20 @@
+/*
+DESCRIPTION:
+Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
+
+Example:
+
+"riley" --> "Hello Riley!"
+"JACK"  --> "Hello Jack!"
+*/
+
+public class GreetMe
+{
+  public static String greet(String name){
+            String formatedName = name.toLowerCase();
+            char first = formatedName.charAt(0);
+            first = Character.toUpperCase(first);
+            formatedName = first + formatedName.substring(1,formatedName.length());
+            return "Hello " + formatedName+"!";
+  }
+}
