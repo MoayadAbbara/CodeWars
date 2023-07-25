@@ -1,0 +1,34 @@
+/*
+DESCRIPTION:
+Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+
+Examples
+"This is an example!" ==> "sihT si na !elpmaxe"
+"double  spaces"      ==> "elbuod  secaps"
+*/
+
+public class Kata
+{
+    public static String reverseWords(final String original)
+    {
+        String isspace = original.trim();
+        if(isspace.isEmpty())
+        {
+            System.out.println(original.length());
+            return original;
+        }
+        String[] arr = original.split(" ");
+        for(int i = 0 ; i < arr.length ; i++)
+        {
+            System.out.println(arr[i]);
+        }
+        for(int i = 0 ; i < arr.length ; i++)
+        {
+            StringBuilder temp = new StringBuilder(arr[i]);
+            temp.reverse();
+            arr[i] = temp.toString();
+            System.out.println(arr[i]);
+        }
+        return String.join(" ", arr);
+    }
+}
