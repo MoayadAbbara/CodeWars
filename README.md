@@ -32,4 +32,4 @@ I welcome contributions and suggestions! If you find a more efficient solution o
 
 Happy coding!
 
-[Moayad Abbara]
+MOAYAD ABBARA
