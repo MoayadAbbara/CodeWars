@@ -8,7 +8,7 @@ This repository contains my solutions to various CodeWars problems that I've sol
 
 ## Why CodeWars?
 
-CodeWars provides an excellent platform to challenge oneself and enhance coding proficiency. The problems cover a wide range of difficulty levels, ensuring a continuous learning experience. By maintaining this repository, I aim to showcase my progress and share my solutions with the community.
+CodeWars provides an excellent platform to challenge oneself and enhance coding proficiency. The problems cover a wide range of difficulty levels, ensuring a continuous learning experience. On CodeWars, difficulty is denoted by kyu levels, ranging from 8kyu (easiest) to 1kyu (hardest). By maintaining this repository, I aim to showcase my progress and share my solutions with the community.
 
 ## Repository Structure
 
